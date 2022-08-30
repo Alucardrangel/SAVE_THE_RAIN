@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>SAVE THE RAIN</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="image/close.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital@1&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section id="banner">
+    <img src="image/logo.png" class="logo">
+    <div class="banner-text">
+      <h1>Save The Rain</h1>
+      <p>Save rain water today to enjoy the tomorrow on Earth.</p>
+      <div class="banner-btn">
+        <a href="#"><span></span>Donate</a>
+        
+        <a href="#"><span></span>Read more</a>
+    </div>
+    
+    </div>
+  </section>
+  <div id="sidenav">
+    <nav>
+      <ul>
+        <li><a href="#">home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">services</a></li>
+        <li><a href="#">testimonials</a></li>
+        <li><a href="#">meet us</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div id="menuBtn">
+   <img src="image/menu.png" id="menu" alt="#">
+  </div>
+  <section id="feature">
+    <div class="title-text">
+      <p>FEATURES</p>
+      <h1>Why donate to us</h1>
+    </div>
+    <div class="feature-box">
+      <div class="features">
+        <h1>OUR FOUNDATION IS MADE OF WATER</h1>
+        <div class="features-desc">
+          <div class="features-text"></div>
+            <p>Our first project started when Joseph Nyarianga, a farmer and mason, asked for a rainwater collection system. His family knew hunger and sickness too frequently. His wife and daughter knew the threat of violence awaiting them during their search for water. We built the first tank together. Joseph knew this could change his village and asked if we could help him pay it forward. Our first project was a small system at his children's school.</p>
+          </div>
+        <h1>THE FORCE THAT DRIVES US</h1>
+        <div class="features-desc">
+          <div class="features-text"></div>
+            <p>The hands that build our systems are the lives that depend on them. We hire people who have received the help so that they can offer that same help to others. Our team is comprised of innovative people who lack formal education but generate unlimited change and hope every day. Our 200 field staff in Africa inspire their communities to rise to self-determination, self-governance, and self-sufficiency.</p>
+          </div>
+        <h1>TRANSPARENT AS CLEAN WATER</h1>
+        <div class="features-desc">
+          <div class="features-text"></div>
+            <p>We revisit and review every rainwater project and test water four times a year. Our relationships with local suppliers and community officials make this work even more successful. Our success lies in our committed partnerships, which provide financial support and the social capital to inspire new people to join our mission. Our corporate partners cover all administrative expenses, even credit card fees, so 100% of public donations fund projects.</p>
+          </div>
+      </div>
+      <div class="features-img">
+        <img src="image/storm.png" >
+      </div>
+    </div>
+  </section>
+<!--   brake new start -->
+  <section id="service">
+    <div class="title-text">
+      <p>Mission</p>
+      <h1>What we are fighting for</h1>
+    </div>
+    <div class="service-box">
+      <div class="single-sevice">
+         <img src="image/rain2.jpeg" width="600" height="399">
+        <div class="overlay">
+          <div class="service-desc">
+            <h3>Clean Air</h3>
+            <hr>
+            <p>Rainforests store and filter excess carbon and other pollutants. </p>
+          </div>
+          
+        </div>
+      </div>
+      <div class="single-sevice">
+        <img src="image/pl.jpeg" width="600" height="399">
+        <div class="overlay">
+          <div class="service-desc">
+            <h3>Healthy Water Cycle</h3>
+            <hr>
+            <p>Water from rainforests contribute to cloud formation, which is key for water regulation.</p>
+          </div>
+          
+        </div>
+      </div>
+      <div class="single-sevice">
+        <img src="image/misss.jpeg" width="600" height="399">
+        <div class="overlay">
+          <div class="service-desc">
+            <h3>Habitats for countless species</h3>
+            <hr>
+            <p>Rainforests house nearly 80% of the world's biodiversity.</p>
+          </div>
+          
+        </div>
+      </div>
+      <div class="single-sevice">
+        <img src="image/rain3.jpeg" width="600" height="399">
+        <div class="overlay">
+          <div class="service-desc">
+            <h3>Hope for Future Generations</h3>
+            <hr>
+            <p>This preservation is the best defense against the loss of biodiversity and climate crisises.</p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+  
+  <script>
+    var menuBtn = document.getElementById("menuBtn")
+    var sidenav = document.getElementById("sidenav")
+    var menu = document.getElementById("menu")
+
+    sidenav.style.right = "-250px";
+    
+    menuBtn.onclick = function(){
+     if(sidenav.style.right == "-250px"){
+        sidenav.style.right = "0";
+        menu.src = "image/close.png";
+       
+     }
+     else{
+        sidenav.style.right = "-250px";
+        menu.src = "image/menu.png";
+     }
+   }
+  </script>
+    
+ 
+</body>
+</html>
